@@ -45,7 +45,7 @@ const TreeNode = memo(props => {
           <Arrow expanded={expanded} styles={styles.treeNodeArrow} />
         ) : (
           shouldShowPlaceholder && (
-            <span style={styles.treeNodePlaceholder}>&nbsp;</span>
+            <span style={styles.treeNodePlaceholder}>▶</span>
           )
         )}
         <NodeRenderer {...props} />
