@@ -117,6 +117,7 @@ export default theme => ({
 
       fontSize: theme.ARROW_FONT_SIZE,
       marginRight: theme.ARROW_MARGIN_RIGHT,
+      visibility: 'hidden',
       ...unselectable,
     },
     treeNodeArrow: {
